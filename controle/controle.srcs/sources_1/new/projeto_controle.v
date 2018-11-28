@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 28.11.2018 02:15:50
-// Design Name: 
-// Module Name: projeto_controle
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+/*
+Design da CPU LEG_V8 Single-Cycle.
+Disciplina: TI0148 - Sistemas Embarcados
+Módulo: projeto_controle.v
+Função: Módulo de Controle
+Grupo Responsável: Marcus Vinícius, Pablo Grisi e Lucas Ribeiro
+*/
 //////////////////////////////////////////////////////////////////////////////////
 
 

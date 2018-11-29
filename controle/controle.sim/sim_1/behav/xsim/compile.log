@@ -1,2 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Marcus Vinicius/Desktop/Estudar/Embarcados/controle/controle.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Marcus Vinicius/Desktop/Estudar/Embarcados/controle/controle.srcs/sim_1/new/simulate_file.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module simulate_file

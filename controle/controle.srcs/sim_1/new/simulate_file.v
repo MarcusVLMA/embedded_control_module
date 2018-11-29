@@ -21,7 +21,7 @@
 
 
 module simulate_file();
-    reg [31:21] instr_t;
+/*    reg [31:21] instr_t;
     
     wire [1:0] aluop_t;
     wire alusrc_t,
@@ -120,5 +120,21 @@ module simulate_file();
         //SUBS
         instr_t <= 11'b11101011000;
         #1;   
-    end
+    end*/
+ reg sel_t;
+ reg [63:0] in0_t, in1_t;
+ wire [63:0] out_t;
+ multiplexer mux(in0_t, in1_t, sel_t, out_t);
+ 
+ initial begin
+    in0_t <= 63'b11;
+    in1_t <= 63'b11111111;
+    sel_t <= 1'b0;
+    #1;
+    in0_t <= 63'b11;
+    in1_t <= 63'b11111111;
+    sel_t <= 1'b1;
+    #1;
+ end
+  
 endmodule
